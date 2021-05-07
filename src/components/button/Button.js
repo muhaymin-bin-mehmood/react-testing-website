@@ -4,7 +4,7 @@ import './button.css'
 const Button = ( props ) => {
     return ( 
         <>
-            <button>{props.title}</button>
+            <button className="theme-btn">{props.title}</button>
         </>
      );
 }

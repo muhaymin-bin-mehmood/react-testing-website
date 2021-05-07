@@ -7,27 +7,27 @@ const Header = () => {
     return (
         <>
             <div className="container">
-                <nav class="navbar navbar-expand-md navbar-light">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#"><img src={Logo}></img></a>
-                        <div class="collapse navbar-collapse">
-                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" href="#">Home</a>
+                <nav className="navbar navbar-expand-md navbar-light">
+                    <div className="container-fluid">
+                        <a className="navbar-brand" href="#"><img src={Logo}></img></a>
+                        <div className="collapse navbar-collapse">
+                            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li className="nav-item">
+                                    <a className="nav-link active" href="#">Home</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Key Features</a>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#">Key Features</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Pricing</a>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#">Pricing</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Testiminial</a>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#">Testiminial</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">FAQ</a>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#">FAQ</a>
                                 </li>
-                                <li class="nav-item">
+                                <li className="nav-item">
                                     <Button title="Try for free"/>
                                 </li>
                             </ul>
