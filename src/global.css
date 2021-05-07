@@ -17,6 +17,9 @@ p{
     font-size: 20px;
     color: #616368;
 }
+.s-pad{
+    padding: 5rem 0;
+}
 @media screen and (max-width: 1399px){
     p{
         font-size: 16px;

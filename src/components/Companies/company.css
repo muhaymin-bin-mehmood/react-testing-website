@@ -1,0 +1,11 @@
+.companies-logo a {
+    width: 180px;
+    height: 90px;
+    padding: 10px;
+    display: inline-block;
+}
+.companies-logo img {
+    width: 79%;
+    object-fit: contain;
+    height: 100%;
+}

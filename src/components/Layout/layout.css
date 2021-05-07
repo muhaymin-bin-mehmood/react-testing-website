@@ -5,4 +5,9 @@ header {
     position: absolute;
     top: 40px;
     width: 100%;
+    z-index: 1;
+}
+footer{
+    padding: 120px 0;
+    background-color: #09142e;
 }
